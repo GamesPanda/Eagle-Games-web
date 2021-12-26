@@ -1,0 +1,114 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(44, 44, 44);
+}
+
+.header h1{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.header {
+    padding: 10px 16px;
+    background-image: url("img/back.png");
+    background-position: top;
+    background-position-x: center;
+    background-position-y: center;
+    color: #f1f1f1;
+    padding-top: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 25px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 204, 255); 
+    border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #0300b3; 
+}
+.links{
+    padding: 5px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: serif;
+    font-size: 20px;
+}
+.links:hover{
+    transition: all 0.5s ease;
+    color: rgb(0, 0, 0);
+}
+.links:active{
+    color: rgb(0, 162, 255);
+}
+.login{
+    padding-top: -30px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 20px;
+}
+.login:hover{
+    color: rgb(0, 0, 0);
+}
+.login:active{
+    color: rgb(0, 162, 255);
+}
+.shop{
+    text-align: right;
+}
+.nadpis{
+    border: 2px solid black;
+    border-radius: 30px;
+    background: linear-gradient(to right, #383838, #131313, #000000);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    margin-top: 60px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.card{
+    margin-top: 50px;
+    margin-left: 800px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-left: -200px;
+    width: 300px;
+    background-image: url("img/back.png");
+}
+.card-nadpis{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background: linear-gradient(to right, #383838, #131313, #000000);
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+.card-text{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+.card-img{
+    padding-top: 10px;
+    margin-left: 115px;
+}
